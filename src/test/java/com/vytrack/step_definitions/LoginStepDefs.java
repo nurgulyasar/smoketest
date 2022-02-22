@@ -67,12 +67,9 @@ public class LoginStepDefs {
         Assert.assertTrue(Driver.get().getTitle().contains(expectedTitle));
 
     }
+    @Then("the title should be this")
+    public void the_title_should_be_this() {
 
-
-
-
-
-
-
+    }
 
 }
